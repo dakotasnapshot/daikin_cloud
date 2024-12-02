@@ -1,0 +1,10 @@
+{
+  "domain": "daikin_cloud",
+  "name": "Daikin Cloud API",
+  "config_flow": true,
+  "documentation": "https://github.com/dakotasnapshot/daikin_cloud",
+  "issue_tracker": "https://github.com/dakotasnapshot/daikin_cloud/issues",
+  "requirements": ["requests"],
+  "version": "1.0.0",
+  "codeowners": ["@dakotasnapshot"]
+}

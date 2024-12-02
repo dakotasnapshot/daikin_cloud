@@ -1,0 +1,13 @@
+set_temperature:
+  description: "Set the target temperature for the Daikin device."
+  fields:
+    temperature:
+      description: "The target temperature in Fahrenheit."
+      example: 72
+
+set_mode:
+  description: "Set the operating mode for the Daikin device."
+  fields:
+    mode:
+      description: "The desired operating mode (Heat, Cool, Off)."
+      example: "Cool"

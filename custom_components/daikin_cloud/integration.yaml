@@ -1,0 +1,12 @@
+domain: daikin_cloud
+name: Daikin Cloud API
+version: "1.0.0"
+documentation: "https://github.com/dakotasnapshot/daikin-cloud-integration"
+dependencies: []
+requirements:
+  - requests
+  - aiohttp
+codeowners:
+  - "@dakotasnapshot"
+iot_class: cloud_polling
+config_flow: true
