@@ -1,0 +1,20 @@
+{
+  "title": "Daikin Cloud API Integration",
+  "description": "Integration to control and monitor Daikin Cloud devices.",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Daikin Cloud API Setup",
+        "description": "Provide your Daikin Cloud credentials and integrator token.",
+        "data": {
+          "username": "Email",
+          "password": "Password",
+          "integrator_token": "Integrator Token"
+        }
+      }
+    },
+    "error": {
+      "auth": "Failed to authenticate with the provided credentials."
+    }
+  }
+}
